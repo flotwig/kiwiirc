@@ -13,11 +13,11 @@ describe('New User Walkthrough', function() {
         cy.get('button.kiwi-welcome-simple-start').click()
     }) 
 
-    it('Connects to an IRC network', function() {
-        cy.contains('Connected to Network!')
+    it('Connects to an IRC network, autojoins channel', function() {
+        cy.get('.kiwi-header-name').contains('###cypress-test-runner')
     })
 
-    it('Autojoins and shows the channel', function() {
-        cy.contains('wolfe.freenode.net sets +n on ###cypress-test-runner')
+    it('Can compose and send a message', function() {
+        cy.get('.kiwi-ircinput-editor').click().type('Test message{enter}')
     })
 })

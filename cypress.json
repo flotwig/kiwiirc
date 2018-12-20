@@ -6,5 +6,5 @@
   "supportFile": "test/e2e/cypress/support",
   "videosFolder": "test/e2e/cypress/videos",
   "projectId": "45wai4",
-  "defaultCommandTimeout": 30000
+  "defaultCommandTimeout": 120000
 }
