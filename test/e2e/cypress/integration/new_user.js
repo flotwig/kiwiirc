@@ -18,6 +18,10 @@ describe('New User Walkthrough', function() {
     })
 
     it('Can compose and send a message', function() {
-        cy.get('.kiwi-ircinput-editor').click().type('Test message{enter}')
+        cy.get('.kiwi-ircinput-editor').click().type('Test message 123{enter}')
+    })
+
+    it('Receives the message back from the IRC server', function() {
+        cy.contains('Test message 123')
     })
 })
