@@ -11,7 +11,7 @@ describe('New User Walkthrough', function() {
           .clear().type('###cypress-test-runner')
 
         cy.get('button.kiwi-welcome-simple-start').click()
-    })
+    }) 
 
     it('Connects to an IRC network', function() {
         cy.contains('Connected to Network!')

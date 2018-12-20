@@ -1,8 +1,10 @@
 {
-    "integrationFolder": "test/e2e/cypress/integration",
-    "fixturesFolder": "test/e2e/cypress/fixtures",
-    "pluginsFile": "test/e2e/cypress/plugins",
-    "screenshotsFolder": "test/e2e/cypress/screenshots",
-    "supportFile": "test/e2e/cypress/support",
-    "videosFolder": "test/e2e/cypress/videos"
+  "integrationFolder": "test/e2e/cypress/integration",
+  "fixturesFolder": "test/e2e/cypress/fixtures",
+  "pluginsFile": "test/e2e/cypress/plugins",
+  "screenshotsFolder": "test/e2e/cypress/screenshots",
+  "supportFile": "test/e2e/cypress/support",
+  "videosFolder": "test/e2e/cypress/videos",
+  "projectId": "45wai4",
+  "defaultCommandTimeout": 30000
 }

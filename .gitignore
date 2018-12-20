@@ -4,4 +4,6 @@ dist/
 srcdocs/
 npm-debug.log
 test/unit/coverage
+test/e2e/cypress/videos
+test/e2e/cypress/screenshots
 src/res/locales/available.json
